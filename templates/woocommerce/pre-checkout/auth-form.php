@@ -33,7 +33,7 @@ $submit_button_label = esc_html__( 'Continuar', 'wc-checkout-flow' );
                    class="woocommerce-Input woocommerce-Input--text input-text<?= $input_class ? ' ' . sanitize_html_class( $input_class ) : '' ?>"
                    name="email"
                    id="email"
-                   autocomplete="off" value="" required>
+                   autocomplete="off" placeholder="seu@email.com.br" value="" required>
         </p>
 
         <p class="form-row wc-checkout-flow-form-submit">
